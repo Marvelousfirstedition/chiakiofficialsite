@@ -21,6 +21,7 @@ a{
     background-image: url(ubSfj3pt.jpg);
     padding: 200px 0 100px 0;
     background-size: cover;
+    height: 1000px;
 }
 
 .information-wrapper{
@@ -28,7 +29,7 @@ a{
     text-align: center;
     background-color: yellow;
     text-align: center;
-    height: 3000px;
+    height: 2500px;
     padding-bottom: 60px;
 }
 
@@ -80,7 +81,7 @@ header{
     padding: 0 20px;
     color: white;
     display: block;
-    float: left;
+    float: right;
     transition: all 0.5s;
 }
 
