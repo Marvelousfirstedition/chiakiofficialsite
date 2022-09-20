@@ -23,6 +23,7 @@ a{
     background-size: cover;
     height: auto;
     max-width: 100%;
+    height: 100%;
 }
 
 .information-wrapper{
@@ -30,23 +31,23 @@ a{
     text-align: center;
     background-color: yellow;
     text-align: center;
-    height: 2500px;
+    height: 100%;
     padding-bottom: 60px;
 }
 
 .information-wrapper h2{
     color: black;
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .information-wrapper ol{
     color: black;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .information-wrapper p{
     color:darkblue;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .twitter{
@@ -92,18 +93,3 @@ header{
     color:blue
 }
 
-@media all and (max-width: 1000px){
-    .wrapper1{
-        height: 1000px;
-    }
-}    
-
-@media all and (max-width: 670px) {
-    .information wrapper{
-        height: 6000px;
-        background-color: yellow;
-    }
-    .left header h1{
-        font-size: 10px;
-    }
-}    
