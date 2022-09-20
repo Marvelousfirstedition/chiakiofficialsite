@@ -21,7 +21,8 @@ a{
     background-image: url(ubSfj3pt.jpg);
     padding: 200px 0 100px 0;
     background-size: cover;
-    height: 1000px;
+    height: auto;
+    max-width: 100%;
 }
 
 .information-wrapper{
@@ -94,5 +95,10 @@ header{
 footer{
     padding-top: 20px;
     padding-bottom: 10px;
-    
 }
+
+@media all and (max-width: 670px) {
+    .information wrapper{
+        height: 6000px;
+    }
+}    
