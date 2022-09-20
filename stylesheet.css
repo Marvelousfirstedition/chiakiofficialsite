@@ -92,13 +92,15 @@ header{
     color:blue
 }
 
-footer{
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
+@media all and (max-width: 1000px){
+    .wrapper1{
+        height: 1000px;
+    }
+}    
 
 @media all and (max-width: 670px) {
     .information wrapper{
         height: 6000px;
+        background-color: yellow;
     }
 }    
