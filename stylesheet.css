@@ -93,6 +93,6 @@ header{
 
 @media all and (max-width: 670px) {
     .wrapper1 img{
-        align-items: flex-start
+        align-items: flex-start;
     }
 }
