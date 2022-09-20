@@ -91,3 +91,8 @@ header{
     color:blue
 }
 
+@media all and (max-width: 670px) {
+    .wrapper1 img{
+        align-items: flex-start
+    }
+}
