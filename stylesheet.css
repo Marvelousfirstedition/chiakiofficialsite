@@ -17,9 +17,7 @@ a{
     margin: 0 auto;
 }
 
-.wrapper1{
-    background-image: url(ubSfj3pt.jpg);
-    padding: 200px 0 100px 0;
+.wrapper1 img{
     background-size: cover;
     height: auto;
     max-width: 100%;
